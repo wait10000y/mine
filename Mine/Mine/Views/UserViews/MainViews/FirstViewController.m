@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  self.view.backgroundColor = [UIColor lightGrayColor];
-  
+  self.navigationItem.title = self.title;
+  self.view.backgroundColor = [UIColor cyanColor];
 }
 
 - (void)didReceiveMemoryWarning {

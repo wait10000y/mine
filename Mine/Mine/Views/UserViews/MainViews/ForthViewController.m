@@ -30,10 +30,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
   
-  self.view.layer.borderColor = [UIColor cyanColor].CGColor;
-  self.view.layer.borderWidth = 1;
-  self.view.layer.cornerRadius = YES;
+//  self.view.layer.borderColor = [UIColor cyanColor].CGColor;
+//  self.view.layer.borderWidth = 1;
+//  self.view.layer.cornerRadius = YES;
   
+  self.navigationItem.title = self.title;
+  self.view.backgroundColor = [UIColor purpleColor];
 }
 
 - (void)didReceiveMemoryWarning {

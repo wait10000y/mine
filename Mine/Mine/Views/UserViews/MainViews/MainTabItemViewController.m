@@ -1,18 +1,18 @@
 //
-//  BaseViewController.m
-//  MySpace
+//  MainTabItemViewController.m
+//  Mine
 //
-//  Created by wsliang on 15/9/18.
-//  Copyright (c) 2015年 wsliang. All rights reserved.
+//  Created by wsliang on 15/10/27.
+//  Copyright © 2015年 wsliang. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "MainTabItemViewController.h"
 
-@interface BaseViewController ()
+@interface MainTabItemViewController ()
 
 @end
 
-@implementation BaseViewController
+@implementation MainTabItemViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,6 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 /*
 #pragma mark - Navigation
 
@@ -33,18 +34,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-
-// default implement
-
--(IBAction)actionBackLastView:(UIButton*)sender
-{
-  NSLog(@"--- method empty ---");
-}
-
--(IBAction)actionOperations:(UIButton*)sender
-{
-  NSLog(@"--- method empty ---");
-}
 
 @end

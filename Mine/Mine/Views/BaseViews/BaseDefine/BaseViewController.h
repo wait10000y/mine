@@ -10,4 +10,9 @@
 
 @interface BaseViewController : UIViewController
 
+
+
+-(IBAction)actionBackLastView:(UIButton*)sender;
+-(IBAction)actionOperations:(UIButton*)sender;
+
 @end

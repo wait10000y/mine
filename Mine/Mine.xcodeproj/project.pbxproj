@@ -7,24 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E709C66C1BD88181008EBEF6 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6631BD88181008EBEF6 /* FifthViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C66D1BD88181008EBEF6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6651BD88181008EBEF6 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C66E1BD88181008EBEF6 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6671BD88181008EBEF6 /* ForthViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C66F1BD88181008EBEF6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6691BD88181008EBEF6 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C6701BD88181008EBEF6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C66B1BD88181008EBEF6 /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C67D1BD882A7008EBEF6 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6751BD882A7008EBEF6 /* AboutMeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C67E1BD882A7008EBEF6 /* ServiceAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6771BD882A7008EBEF6 /* ServiceAgreementViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C67F1BD882A7008EBEF6 /* TestCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6791BD882A7008EBEF6 /* TestCustomSegue.m */; settings = {ASSET_TAGS = (); }; };
-		E709C6801BD882A7008EBEF6 /* TestXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C67B1BD882A7008EBEF6 /* TestXibViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C6811BD882A7008EBEF6 /* TestXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E709C67C1BD882A7008EBEF6 /* TestXibViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		E709C68C1BD882C4008EBEF6 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6831BD882C4008EBEF6 /* BaseNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C68D1BD882C4008EBEF6 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6851BD882C4008EBEF6 /* BaseObject.m */; settings = {ASSET_TAGS = (); }; };
-		E709C68E1BD882C4008EBEF6 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6871BD882C4008EBEF6 /* BaseTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C68F1BD882C4008EBEF6 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6891BD882C4008EBEF6 /* BaseView.m */; settings = {ASSET_TAGS = (); }; };
-		E709C6901BD882C4008EBEF6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C68B1BD882C4008EBEF6 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C6931BD88673008EBEF6 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6921BD88673008EBEF6 /* MainNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C6961BD8869A008EBEF6 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6951BD8869A008EBEF6 /* MainTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E709C6991BD886D8008EBEF6 /* LaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6981BD886D8008EBEF6 /* LaunchScreenViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E709C66C1BD88181008EBEF6 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6631BD88181008EBEF6 /* FifthViewController.m */; };
+		E709C66D1BD88181008EBEF6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6651BD88181008EBEF6 /* FirstViewController.m */; };
+		E709C66E1BD88181008EBEF6 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6671BD88181008EBEF6 /* ForthViewController.m */; };
+		E709C66F1BD88181008EBEF6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6691BD88181008EBEF6 /* SecondViewController.m */; };
+		E709C6701BD88181008EBEF6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C66B1BD88181008EBEF6 /* ThirdViewController.m */; };
+		E709C67D1BD882A7008EBEF6 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6751BD882A7008EBEF6 /* AboutMeViewController.m */; };
+		E709C67E1BD882A7008EBEF6 /* ServiceAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6771BD882A7008EBEF6 /* ServiceAgreementViewController.m */; };
+		E709C67F1BD882A7008EBEF6 /* TestCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6791BD882A7008EBEF6 /* TestCustomSegue.m */; };
+		E709C6801BD882A7008EBEF6 /* TestXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C67B1BD882A7008EBEF6 /* TestXibViewController.m */; };
+		E709C6811BD882A7008EBEF6 /* TestXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E709C67C1BD882A7008EBEF6 /* TestXibViewController.xib */; };
+		E709C68C1BD882C4008EBEF6 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6831BD882C4008EBEF6 /* BaseNavigationViewController.m */; };
+		E709C68D1BD882C4008EBEF6 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6851BD882C4008EBEF6 /* BaseObject.m */; };
+		E709C68E1BD882C4008EBEF6 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6871BD882C4008EBEF6 /* BaseTabBarViewController.m */; };
+		E709C68F1BD882C4008EBEF6 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6891BD882C4008EBEF6 /* BaseView.m */; };
+		E709C6901BD882C4008EBEF6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C68B1BD882C4008EBEF6 /* BaseViewController.m */; };
+		E709C6931BD88673008EBEF6 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6921BD88673008EBEF6 /* MainNavigationViewController.m */; };
+		E709C6961BD8869A008EBEF6 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6951BD8869A008EBEF6 /* MainTabBarViewController.m */; };
+		E709C6991BD886D8008EBEF6 /* LaunchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E709C6981BD886D8008EBEF6 /* LaunchScreenViewController.m */; };
+		E74150821BDF4BFF00B89350 /* MainTabItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74150811BDF4BFF00B89350 /* MainTabItemViewController.m */; };
+		E74150871BDF4E0700B89350 /* CommUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = E74150861BDF4E0700B89350 /* CommUserDefault.m */; };
+		E741508B1BDF531100B89350 /* UIFont+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E741508A1BDF531100B89350 /* UIFont+baseDefine.m */; };
+		E741508E1BDF533700B89350 /* UIColor+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E741508D1BDF533700B89350 /* UIColor+baseDefine.m */; };
+		E74150911BDF53AC00B89350 /* UIImage+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E74150901BDF53AC00B89350 /* UIImage+baseDefine.m */; };
+		E74150941BDF53CA00B89350 /* UIView+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E74150931BDF53CA00B89350 /* UIView+baseDefine.m */; };
+		E74150971BDF53DD00B89350 /* UIViewController+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E74150961BDF53DD00B89350 /* UIViewController+baseDefine.m */; };
+		E741509A1BDF53FE00B89350 /* NSObject+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E74150991BDF53FE00B89350 /* NSObject+baseDefine.m */; };
+		E741509D1BDF546A00B89350 /* UIImageView+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E741509C1BDF546A00B89350 /* UIImageView+baseDefine.m */; };
+		E74150A01BDF548300B89350 /* UILabel+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E741509F1BDF548300B89350 /* UILabel+baseDefine.m */; };
+		E74150A31BDF54A100B89350 /* UITextField+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E74150A21BDF54A100B89350 /* UITextField+baseDefine.m */; };
+		E74150A61BDF54BC00B89350 /* UITextView+baseDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E74150A51BDF54BC00B89350 /* UITextView+baseDefine.m */; };
 		E777660F1BD7956A00DFEA84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E777660E1BD7956A00DFEA84 /* main.m */; };
 		E77766121BD7956A00DFEA84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E77766111BD7956A00DFEA84 /* AppDelegate.m */; };
 		E777661B1BD7956A00DFEA84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77766191BD7956A00DFEA84 /* Main.storyboard */; };
@@ -68,6 +80,31 @@
 		E709C6951BD8869A008EBEF6 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTabBarViewController.m; path = Views/UserViews/MainViews/MainTabBarViewController.m; sourceTree = "<group>"; };
 		E709C6971BD886D8008EBEF6 /* LaunchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaunchScreenViewController.h; path = Views/UserViews/MainViews/LaunchScreenViewController.h; sourceTree = "<group>"; };
 		E709C6981BD886D8008EBEF6 /* LaunchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaunchScreenViewController.m; path = Views/UserViews/MainViews/LaunchScreenViewController.m; sourceTree = "<group>"; };
+		E74150801BDF4BFF00B89350 /* MainTabItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTabItemViewController.h; path = Views/UserViews/MainViews/MainTabItemViewController.h; sourceTree = "<group>"; };
+		E74150811BDF4BFF00B89350 /* MainTabItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTabItemViewController.m; path = Views/UserViews/MainViews/MainTabItemViewController.m; sourceTree = "<group>"; };
+		E74150841BDF4DD400B89350 /* CommDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommDefine.h; path = Views/BaseViews/BaseUtils/CommDefine.h; sourceTree = "<group>"; };
+		E74150851BDF4E0700B89350 /* CommUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommUserDefault.h; path = Views/BaseViews/BaseUtils/CommUserDefault.h; sourceTree = "<group>"; };
+		E74150861BDF4E0700B89350 /* CommUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommUserDefault.m; path = Views/BaseViews/BaseUtils/CommUserDefault.m; sourceTree = "<group>"; };
+		E74150891BDF531100B89350 /* UIFont+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+baseDefine.h"; path = "Views/BaseViews/Categorys/UIFont+baseDefine.h"; sourceTree = "<group>"; };
+		E741508A1BDF531100B89350 /* UIFont+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+baseDefine.m"; path = "Views/BaseViews/Categorys/UIFont+baseDefine.m"; sourceTree = "<group>"; };
+		E741508C1BDF533700B89350 /* UIColor+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+baseDefine.h"; path = "Views/BaseViews/Categorys/UIColor+baseDefine.h"; sourceTree = "<group>"; };
+		E741508D1BDF533700B89350 /* UIColor+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+baseDefine.m"; path = "Views/BaseViews/Categorys/UIColor+baseDefine.m"; sourceTree = "<group>"; };
+		E741508F1BDF53AC00B89350 /* UIImage+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+baseDefine.h"; path = "Views/BaseViews/Categorys/UIImage+baseDefine.h"; sourceTree = "<group>"; };
+		E74150901BDF53AC00B89350 /* UIImage+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+baseDefine.m"; path = "Views/BaseViews/Categorys/UIImage+baseDefine.m"; sourceTree = "<group>"; };
+		E74150921BDF53CA00B89350 /* UIView+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+baseDefine.h"; path = "Views/BaseViews/Categorys/UIView+baseDefine.h"; sourceTree = "<group>"; };
+		E74150931BDF53CA00B89350 /* UIView+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+baseDefine.m"; path = "Views/BaseViews/Categorys/UIView+baseDefine.m"; sourceTree = "<group>"; };
+		E74150951BDF53DD00B89350 /* UIViewController+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+baseDefine.h"; path = "Views/BaseViews/Categorys/UIViewController+baseDefine.h"; sourceTree = "<group>"; };
+		E74150961BDF53DD00B89350 /* UIViewController+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+baseDefine.m"; path = "Views/BaseViews/Categorys/UIViewController+baseDefine.m"; sourceTree = "<group>"; };
+		E74150981BDF53FE00B89350 /* NSObject+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+baseDefine.h"; path = "Views/BaseViews/Categorys/NSObject+baseDefine.h"; sourceTree = "<group>"; };
+		E74150991BDF53FE00B89350 /* NSObject+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+baseDefine.m"; path = "Views/BaseViews/Categorys/NSObject+baseDefine.m"; sourceTree = "<group>"; };
+		E741509B1BDF546A00B89350 /* UIImageView+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+baseDefine.h"; path = "Views/BaseViews/Categorys/UIImageView+baseDefine.h"; sourceTree = "<group>"; };
+		E741509C1BDF546A00B89350 /* UIImageView+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+baseDefine.m"; path = "Views/BaseViews/Categorys/UIImageView+baseDefine.m"; sourceTree = "<group>"; };
+		E741509E1BDF548300B89350 /* UILabel+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+baseDefine.h"; path = "Views/BaseViews/Categorys/UILabel+baseDefine.h"; sourceTree = "<group>"; };
+		E741509F1BDF548300B89350 /* UILabel+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+baseDefine.m"; path = "Views/BaseViews/Categorys/UILabel+baseDefine.m"; sourceTree = "<group>"; };
+		E74150A11BDF54A100B89350 /* UITextField+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+baseDefine.h"; path = "Views/BaseViews/Categorys/UITextField+baseDefine.h"; sourceTree = "<group>"; };
+		E74150A21BDF54A100B89350 /* UITextField+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+baseDefine.m"; path = "Views/BaseViews/Categorys/UITextField+baseDefine.m"; sourceTree = "<group>"; };
+		E74150A41BDF54BC00B89350 /* UITextView+baseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+baseDefine.h"; path = "Views/BaseViews/Categorys/UITextView+baseDefine.h"; sourceTree = "<group>"; };
+		E74150A51BDF54BC00B89350 /* UITextView+baseDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+baseDefine.m"; path = "Views/BaseViews/Categorys/UITextView+baseDefine.m"; sourceTree = "<group>"; };
 		E777660A1BD7956A00DFEA84 /* Mine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777660E1BD7956A00DFEA84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E77766101BD7956A00DFEA84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +160,8 @@
 				E709C6921BD88673008EBEF6 /* MainNavigationViewController.m */,
 				E709C6941BD8869A008EBEF6 /* MainTabBarViewController.h */,
 				E709C6951BD8869A008EBEF6 /* MainTabBarViewController.m */,
+				E74150801BDF4BFF00B89350 /* MainTabItemViewController.h */,
+				E74150811BDF4BFF00B89350 /* MainTabItemViewController.m */,
 				E709C6641BD88181008EBEF6 /* FirstViewController.h */,
 				E709C6651BD88181008EBEF6 /* FirstViewController.m */,
 				E709C6681BD88181008EBEF6 /* SecondViewController.h */,
@@ -173,8 +212,38 @@
 		E709C6731BD88253008EBEF6 /* BaseUtils */ = {
 			isa = PBXGroup;
 			children = (
+				E74150841BDF4DD400B89350 /* CommDefine.h */,
+				E74150851BDF4E0700B89350 /* CommUserDefault.h */,
+				E74150861BDF4E0700B89350 /* CommUserDefault.m */,
 			);
 			name = BaseUtils;
+			sourceTree = "<group>";
+		};
+		E74150881BDF4F5500B89350 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				E74150981BDF53FE00B89350 /* NSObject+baseDefine.h */,
+				E74150991BDF53FE00B89350 /* NSObject+baseDefine.m */,
+				E74150921BDF53CA00B89350 /* UIView+baseDefine.h */,
+				E74150931BDF53CA00B89350 /* UIView+baseDefine.m */,
+				E74150951BDF53DD00B89350 /* UIViewController+baseDefine.h */,
+				E74150961BDF53DD00B89350 /* UIViewController+baseDefine.m */,
+				E741509B1BDF546A00B89350 /* UIImageView+baseDefine.h */,
+				E741509C1BDF546A00B89350 /* UIImageView+baseDefine.m */,
+				E74150891BDF531100B89350 /* UIFont+baseDefine.h */,
+				E741508A1BDF531100B89350 /* UIFont+baseDefine.m */,
+				E741508C1BDF533700B89350 /* UIColor+baseDefine.h */,
+				E741508D1BDF533700B89350 /* UIColor+baseDefine.m */,
+				E741508F1BDF53AC00B89350 /* UIImage+baseDefine.h */,
+				E74150901BDF53AC00B89350 /* UIImage+baseDefine.m */,
+				E741509E1BDF548300B89350 /* UILabel+baseDefine.h */,
+				E741509F1BDF548300B89350 /* UILabel+baseDefine.m */,
+				E74150A11BDF54A100B89350 /* UITextField+baseDefine.h */,
+				E74150A21BDF54A100B89350 /* UITextField+baseDefine.m */,
+				E74150A41BDF54BC00B89350 /* UITextView+baseDefine.h */,
+				E74150A51BDF54BC00B89350 /* UITextView+baseDefine.m */,
+			);
+			name = Categorys;
 			sourceTree = "<group>";
 		};
 		E77766011BD7956900DFEA84 = {
@@ -236,6 +305,7 @@
 		E77766311BD79FD700DFEA84 /* BaseViews */ = {
 			isa = PBXGroup;
 			children = (
+				E74150881BDF4F5500B89350 /* Categorys */,
 				E709C6721BD88245008EBEF6 /* BaseDefine */,
 				E709C6731BD88253008EBEF6 /* BaseUtils */,
 			);
@@ -313,25 +383,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74150971BDF53DD00B89350 /* UIViewController+baseDefine.m in Sources */,
 				E709C66C1BD88181008EBEF6 /* FifthViewController.m in Sources */,
+				E741508E1BDF533700B89350 /* UIColor+baseDefine.m in Sources */,
 				E709C6991BD886D8008EBEF6 /* LaunchScreenViewController.m in Sources */,
+				E741508B1BDF531100B89350 /* UIFont+baseDefine.m in Sources */,
+				E741509A1BDF53FE00B89350 /* NSObject+baseDefine.m in Sources */,
 				E709C6701BD88181008EBEF6 /* ThirdViewController.m in Sources */,
 				E709C68F1BD882C4008EBEF6 /* BaseView.m in Sources */,
+				E74150821BDF4BFF00B89350 /* MainTabItemViewController.m in Sources */,
 				E709C66E1BD88181008EBEF6 /* ForthViewController.m in Sources */,
+				E74150A01BDF548300B89350 /* UILabel+baseDefine.m in Sources */,
 				E709C68D1BD882C4008EBEF6 /* BaseObject.m in Sources */,
 				E709C66F1BD88181008EBEF6 /* SecondViewController.m in Sources */,
 				E709C67F1BD882A7008EBEF6 /* TestCustomSegue.m in Sources */,
 				E709C67E1BD882A7008EBEF6 /* ServiceAgreementViewController.m in Sources */,
 				E709C6801BD882A7008EBEF6 /* TestXibViewController.m in Sources */,
 				E709C6901BD882C4008EBEF6 /* BaseViewController.m in Sources */,
+				E741509D1BDF546A00B89350 /* UIImageView+baseDefine.m in Sources */,
+				E74150941BDF53CA00B89350 /* UIView+baseDefine.m in Sources */,
 				E709C68C1BD882C4008EBEF6 /* BaseNavigationViewController.m in Sources */,
 				E709C66D1BD88181008EBEF6 /* FirstViewController.m in Sources */,
 				E77766121BD7956A00DFEA84 /* AppDelegate.m in Sources */,
+				E74150911BDF53AC00B89350 /* UIImage+baseDefine.m in Sources */,
 				E709C68E1BD882C4008EBEF6 /* BaseTabBarViewController.m in Sources */,
+				E74150A61BDF54BC00B89350 /* UITextView+baseDefine.m in Sources */,
 				E709C6931BD88673008EBEF6 /* MainNavigationViewController.m in Sources */,
 				E709C6961BD8869A008EBEF6 /* MainTabBarViewController.m in Sources */,
 				E709C67D1BD882A7008EBEF6 /* AboutMeViewController.m in Sources */,
 				E777660F1BD7956A00DFEA84 /* main.m in Sources */,
+				E74150871BDF4E0700B89350 /* CommUserDefault.m in Sources */,
+				E74150A31BDF54A100B89350 /* UITextField+baseDefine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

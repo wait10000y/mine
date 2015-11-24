@@ -18,12 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
   
-  self.view.layer.borderColor = [UIColor blueColor].CGColor;
-  self.view.layer.borderWidth = 1;
-  self.view.layer.cornerRadius = YES;
   
+  
+  self.navigationItem.title = self.title;
   self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
 }
 
